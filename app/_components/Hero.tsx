@@ -63,9 +63,9 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 1, ease: "easeOut" }}
         >
           <img
-            src="/HeroImage.png"
+            src="/hm.jpg"
             alt="therapist"
-            className="w-[300px] md:w-[450px] object-cover rounded"
+            className="w-[500px] md:w-[650px] object-cover rounded-xl"
           />
         </motion.div>
 

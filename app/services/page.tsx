@@ -45,12 +45,12 @@ export default function ServicesPage() {
               initial={{ opacity: 0, x: 80 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.9, ease: "easeOut" }}
-              className="rounded-xl overflow-hidden "
+              className="rounded-xl overflow-hidden my-5"
             >
               <Image
                 height={500}
                 width={800}
-                src="/support2.png"
+                src="/servicesImage.jpg"
                 alt="IT Services"
                 className="w-full h-auto bg--200 "
               />
