@@ -119,64 +119,13 @@ const AboutPage = () => {
                 </section>
 
                 {/* Team Section */}
-                <section className="text-center">
+                {/* <section className="text-center">
                     <h2 className="text-[#4a4a43] text-3xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Meet Our Experts</h2>
                     <p className="text-gray-500 px-4 pb-8 max-w-2xl mx-auto">Our team is composed of seasoned professionals with diverse expertise, dedicated to delivering exceptional results and driving your success.</p>
-                </section>
+                </section> */}
 
                 {/* Team Grid */}
-                <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
-                    {/* Team Member 1 */}
-                    <div className="bg-white rounded-xl overflow-hidden border border-gray-200 text-center flex flex-col items-center p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                        <img
-                            className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-200"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmGyLkOeuZ9KcC8Yhh-6wGWBOHg61qnttHfQdU4vzXt_ti6PTvaXxttYcNa9E-exmjxz2VLhw3JABbtLwfdbWpfrl0oSGtZE9xXRGJXLIDre1Jtqc_DUkg2r8qLn0YvTsEXvds-hk1cHIEYxLtDCtl1BqCoQS9lrbiSy_TnjzWtjRG3ebZwYC8OjYdGpDzVxmw3ORF8Jk412SQRbT3let5thEYnSBvcoyaETflRW8MZsUDqvzenHPg-tgOd7nkFDXiRPn2d81iVj8"
-                            alt="Professional headshot of John Doe"
-                        />
-                        <h3 className="text-lg font-bold text-[#4a4a43]">John Doe</h3>
-                        <p className="text-sm text-[#6d6d66] font-medium">Chief Executive Officer</p>
-                        <p className="text-sm text-gray-500 mt-2">John has over 20 years of experience in the tech industry, leading our company with a vision for innovation and excellence.</p>
-                        <div className="flex gap-4 mt-4 text-gray-500">
-                            <a className="hover:text-primary" href="#">
-                                <FaLinkedin className="w-5 h-5" />
-                            </a>
-                        </div>
-                    </div>
-
-                    {/* Team Member 2 */}
-                    <div className="bg-white rounded-xl overflow-hidden border border-gray-200 text-center flex flex-col items-center p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                        <img
-                            className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-200"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC__2JKu0LW-_xS5hJ-c9FZ4ok617P6DZsKkJQltNDETz2A06FnB4h0WTLIzHNbm4o7cIlcWeZJ8E45lydWqMh3MiXc_zo67QR4CFCED_wTtKnVMtB0Z8kQAQd69KxSr0GUxzOAjWIR010LP4hW7U8qY36Sn0E4VgkXRkTqq1FLUXM8WV8OVRmbmb7Eqnm4WC5fbQCZZYHPWGEqDeOmrdPd8o3d7DKCsO6IsIboJ8lT3jHRfQcs9RTz2DZrAyrGhAtEg32B_x0fLjY"
-                            alt="Professional headshot of Jane Smith"
-                        />
-                        <h3 className="text-lg font-bold text-[#4a4a43]">Jane Smith</h3>
-                        <p className="text-sm text-[#6d6d66] font-medium">Chief Technology Officer</p>
-                        <p className="text-sm text-gray-500 mt-2">Jane is a visionary technologist who spearheads our research and development, ensuring we stay at the forefront of the industry.</p>
-                        <div className="flex gap-4 mt-4 text-gray-500">
-                            <a className="hover:text-primary" href="#">
-                                <FaLinkedin className="w-5 h-5" />
-                            </a>
-                        </div>
-                    </div>
-
-                    {/* Team Member 3 */}
-                    <div className="bg-white rounded-xl overflow-hidden border border-gray-200 text-center flex flex-col items-center p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                        <img
-                            className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-200"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhT7RbQSzM6UtIdsZotlo6cEy6GQ8SrAdPewuZnv8mgc7uhaBpfCvAcfJXIwT6lbVgawBbgZVZF3CBXvXa6KGzO5kf61SKHizChua0xCEJIs7JX5Jk4WVzrIUZpzvI0qjT3I1O4i3QZ9iKB7s8OLHAzBx3c1n8vP7Ngut-ijUZBpkYzEAwxg2mTE_aYg4HhCyFm1XnHe1grVHqTVl8X3sductythilDItWhC_qcofDiskFD6K_9DF8deA0bRnHL_G_OHWLN05eVx0"
-                            alt="Professional headshot of Mike Johnson"
-                        />
-                        <h3 className="text-lg font-bold text-[#4a4a43]">Mike Johnson</h3>
-                        <p className="text-sm text-[#6d6d66] font-medium">Head of Operations</p>
-                        <p className="text-sm text-gray-500 mt-2">Mike ensures that our projects are delivered on time and to the highest standard, managing our talented team of engineers.</p>
-                        <div className="flex gap-4 mt-4 text-gray-500">
-                            <a className="hover:text-primary" href="#">
-                                <FaLinkedin className="w-5 h-5" />
-                            </a>
-                        </div>
-                    </div>
-                </section>
+               
 
                 {/* CTA Section */}
                 <section className="mt-16 pb-16 p-10  rounded-xl text-center">
